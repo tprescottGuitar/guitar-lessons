@@ -1,0 +1,246 @@
+/************************************  BASE STYLES  *******************************************/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gainsboro;
+}
+
+h5 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+
+/************************************  LAYOUT STYLES  *******************************************/
+
+/*** MAJOR LAYOUT STYLES ***/
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #231309;
+    margin-top: 40px;
+    padding: 0px;
+    width: 100%;
+    background-color: #70d3aa;
+    color: white;
+    height: 40px
+}
+
+
+/*** MINOR LAYOUT STYLES ***/
+
+    /** Header **/
+
+
+
+        .header-img {
+            display: inline-block;
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+
+        .header-txt {
+            display: inline-block;
+            color: white;
+           font-family: 'Secular One', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+    
+.header-title {
+    position: relative;
+    top: -50px;
+    left: 0;
+}
+
+    /** Nav **/
+        .main-nav {
+            border-bottom: 2px solid gray;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: 'Buda', cursive;
+            margin-top: 10px;
+            margin-bottom: 50px;
+        }
+
+        .nav-item {
+            margin: 0;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 0px;
+            padding: 0;
+            display: inline-block;
+            color: #301a0c;
+        }
+
+
+    /** Sections **/
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            border-bottom: 2px solid gainsboro;
+            border-right: 2px solid gainsboro;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-bottom: 10px;
+        }
+        
+        .section-header {
+           text-align: center;
+            margin: 0 auto;
+            margin-top: 10px;
+            padding: 0;
+            border-bottom: 2px solid #301a0c;
+            width: 120px;
+            color: #301a0c;
+        }
+
+        .section-content {
+            text-align: center;
+            margin:10px;
+        }
+
+        .section-text {
+            color: #301a0c;
+            font-family: 'Buda', cursive;
+        }
+
+    /** FAQ **/
+.faq-question {
+    color: #301a0c;
+    font-family: 'Buda', cursive;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.faq-answer {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    margin-top: 11px;
+}
+
+/** Contact **/
+.contact-title {
+    color: #301a0c;
+    font-family: 'Buda', cursive;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 25px
+}
+
+    /** Footer **/
+        .footer-txt {
+            text-align: center;
+            width: 200px;
+            margin: 0 auto;
+            padding-top: 8px;
+            margin-bottom: 7px;
+            font-family: 'Buda', cursive;
+        }
+
+        .footer-img-container {
+            display: inline-block;
+            float: right;
+            margin: 0;
+            padding: 0;
+            margin-top: -30px;
+            margin-right: 7px;
+        }   
+
+        .footer-img {
+            color: white;
+        }
+
+
+/************************************  MODULE STYLES  *******************************************/
+/** Header **/
+
+header {
+    background-color: #70d3aa;
+}
+
+.header-container {
+    width: 320px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header-title {
+	font-size: 1.7em;
+}
+
+/** About **/
+
+.add-margin-top {
+    margin-top: 35px;
+}    
+
+.meet-title {
+    text-align: center;
+}
+
+/** Bio **/
+
+
+
+/** Footer **/
+.display-inline {
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 3px;
+}
+
+
+/************************************  MEDIA QUERIES  *******************************************/
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+    
+    .container {
+        width: 70%;
+        margin-top: 90px;
+    }
+    
+}
+
+
